@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+section {
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#animeDetails, #watchlist {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#relatedAnimes {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+.anime-card {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.anime-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.anime-card h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.anime-card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+#watchlistItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script3.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="feedback.html">Send me your Feedback</a></li>
+            </ul>
+        </nav>
+        <button id="themeSwitcher">Switch to Dark Theme</button>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p>If you wish to get in touch with me, you can reach me at:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:phongnguyenxuan321@gmail.com">phongnguyenxuan321@gmail.com</a> <button class="copy-button" onclick="copyToClipboard('phong@example.com')">Copy Email</button></li>
+                <li><strong>Phone:</strong> <a href="tel:+12345678900">+1 234 567 8900 (not real)</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/ForeignKenzoku" target="_blank">My GitHub Account</a></li>
+            </ul>
+        </section>
+        <section class="social-media">
+            <h2>Follow Me</h2>
+            <p>Feel free to follow me on social media:</p>
+            <ul>
+                <li><a href="https://twitter.com" target="_blank">Twitter (Not real)</a></li>
+                <li><a href="https://facebook.com" target="_blank">Facebook (Not real)</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram (Not real)</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="feedback.html">Send me your Feedback</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Phong</p>
+    </footer>
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert('Email copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
+
+

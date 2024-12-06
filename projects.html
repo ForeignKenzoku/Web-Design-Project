@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script src="Script3.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Projects Showcase</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="feedback.html">Send me your Feedback</a></li>
+            </ul>
+            <button id="themeSwitcher">Switch to Dark Theme</button>
+        </nav>
+    </header>
+    <main>
+        <div class="project-buttons">
+            <button onclick="filterProjects('GithubEarlyAssigment')">Early Work</button>
+            <button onclick="filterProjects('GithubAssigment')">My recent work</button>
+            <button onclick="filterProjects('all')">All</button>
+        </div>
+        <div class="project-container">
+            <div class="project" data-type="GithubEarlyAssigment"><a href="https://github.com/ForeignKenzoku/My-Introduction" target="_blank">My Early Github Introduction Project</a></div>
+            <div class="project" data-type="GithubEarlyAssigment"><a href="https://github.com/ForeignKenzoku/Week-6" target="_blank">One of my Project</a></div>
+            <div class="project" data-type="GithubAssigment"><a href="JavaAssignent2/JavaAssigment.html" target="_blank">My Project</a></div>
+        </div>
+    </main>
+    <footer>
+        <nav class="bottom-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="resume.html">My Resume</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="feedback.html">Send me your Feedback</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
